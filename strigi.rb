@@ -3,7 +3,7 @@ require File.join(File.dirname(__FILE__), 'base_kde_formula')
 class Strigi < BaseKdeFormula
   homepage 'http://strigi.sourceforge.net/'
   url 'http://www.vandenoever.info/software/strigi/strigi-0.7.8.tar.bz2'
-  sha1 '7250fb15109d33b0c49995a2cc3513ba7d937882'
+  sha256 '43e461a625acdefa59bf58cc9d10aebda9eba920dfbe800fc77e6dcbf1eff989'
 
   kde_build_deps
   depends_on 'clucene'

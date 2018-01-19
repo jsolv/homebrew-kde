@@ -2,8 +2,8 @@ require File.join(File.dirname(__FILE__), 'base_kde_formula')
 
 class KdevelopPgQt < BaseKdeFormula
   homepage 'http://kdevelop.org/'
-  url 'http://anongit.kde.org/kdevelop-pg-qt', :using => :git, :branch => "1.1"
-  sha1 '7c2b77c7e81d82368285ea38cf1b5cf8160a46f0'
+  url 'git@github.com:KDE/kdevelop-pg-qt.git', :using => :git, :branch => "1.1"
+  sha256 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
 
   depends_on 'kdelibs'
   kde_build_deps

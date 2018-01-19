@@ -4,7 +4,7 @@ class Grantlee < BaseKdeFormula
   homepage 'http://grantlee.org/'
   version '0.5.1'
   url 'http://www.grantlee.org/downloads/grantlee-0.5.1.tar.gz'
-  sha1 'fe7111bcf25d1e3ead8e48f0f1aea91df944e58d'
+  sha256 '191809bf4c9b7ef877af0fd29345061c2372edfb4506aa7d5df5c71a570fa0ac'
   head 'https://gitorious.org/grantlee/grantlee.git'
 
   kde_build_deps

@@ -3,7 +3,7 @@ require File.join(File.dirname(__FILE__), 'base_kde_formula')
 class KdeRuntime < BaseKdeFormula
   homepage 'http://www.kde.org/'
   url 'http://download.kde.org/stable/4.14.3/src/kde-runtime-4.14.3.tar.xz'
-  sha1 'd25357bf7e5d3922ce0c9b60921fb2fd738b7251'
+  sha256 '78a74e519b4e897ffcee14be98eebd7b672ad2bb6e71a4aa2fe77682b5bc8605'
 
   depends_on 'oxygen-icons'
   depends_on 'kde-phonon'
